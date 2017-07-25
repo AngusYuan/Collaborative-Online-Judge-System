@@ -1,6 +1,7 @@
 import { Component, OnInit, Inject } from '@angular/core';
 import { Problem } from "../../models/problem.model";
 
+//Define Default problem and show it in the blank
 const DEFAULT_PROBLEM: Problem = Object.freeze({
   id: 0,
   name: "",
